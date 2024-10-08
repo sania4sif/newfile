@@ -1,10 +1,12 @@
+'use clint'
+import HeroSection from '@/components/HeroSection'
 import React from 'react'
 
 const page = () => {
   return (
-    <div className='p-48 bg-gray-600'>
-      home page
-    </div>
+    <main className='min-h-screen bg-black/[0.96] bg-grid-white/[0.07]'>
+      <HeroSection/>
+    </main>
   )
 }
 
